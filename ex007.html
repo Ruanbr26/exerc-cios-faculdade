@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <!-- A tag <input> é utilizada para proporcionar interatividade à página, pois permite receber informações fornecidas pela pessoa usuária. Com ela podemos, por exemplo, criar um formulário com diversas questões, que solicitam tipos de dados diferentes, e obter o resultado apropriado para cada uma delas.
+
+O elemento <input> não necessita da tag de fechamento, como acontece com outros elementos HTML. -->
+    <h1>formulario</h1>
+    <!-- tag form indica que seria um formulario -->
+<form >
+    <fieldset>
+        <legend>Dados cadastrais</legend> <!-- sdiciona legenda para identificar aquele campo -->
+    
+    <!-- campo de entrada de dados tipo TEXTO -->
+     <!-- TAG INPUT para adionar o campo ( entrada de algo)de informações de dados e adicionar marca dágua exemplo´´ digite sua senha  -->
+      <label for="nome">Nome</label>
+    <input type="text" placeholder="digite seu nome" id="nome" required> <!-- tag ´label´ seria a etiqueta, ela vai identificar e mostrar pro usuario aonde colocar a informação -->
+    <!--  tag for, seria basicamente ´para´ ex: para onde denominat aquela etiqueta -->
+      <label for="idade">idade</label>
+    <input type="number" placeholder="digite sua idade" id="idade" required><!-- a tag ´number´determina que será apenas permitidos numeros no campo input -->
+    <label for="senha">senha</label>
+    <input type="password" placeholder="digite sua senha" id="senha" required><!-- tag´required determina que o usuario tem que preencher o campo -->
+    <label for="email">email</label>
+    <input type="email" id="email" placeholder=" digite seu email" required>
+    <input type="submit" value=" Enviar forms">
+</fieldset>
+<!-- O marcador <FIELDSET></FIELDSET> "Fieldset Element" ou campo definido é utilizado como diz o próprio nome; definir os limites visuais (perímetro) de um formulário.
+
+Pode-se ou não ser usada com a tag <LEGEND></LEGEND> quando então o leitor estará diante de um arquivo de aço cheio de divisórias onde pastas de arquivos estão separadas por cartões duros com uma aba de identificação.
+O marcador <FIELDSET></FIELDSET> tem uma serie agradável de modificações que podem ser feitas com CSS.
+ -->
+
+</form>
+
+</body>
+</html>
